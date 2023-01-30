@@ -5,7 +5,9 @@
 const calc = require('./calculation.js');
 
 const rateHR = 300;
-const workHR = calc.multiply(6,4);
+const days = 6;
+const hrs = 4;
+const workHR = calc.multiply(days,hrs);
 
 const gross = calc.multiply(workHR, rateHR);
 const tax = calc.multiply(gross,0.1);
