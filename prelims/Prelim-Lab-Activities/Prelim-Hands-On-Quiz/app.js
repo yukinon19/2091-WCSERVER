@@ -2,17 +2,17 @@
 // Name: Jenna Ella P. Pangilinan
 //Section: WD 201
 
-var calc = require('./calculation.js');
+const calc = require('./calculation.js');
 
-var rateHR = 300;
-var workHR = calc.multiply(6,4);
+const rateHR = 300;
+const workHR = calc.multiply(6,4);
 
-var gross = calc.multiply(workHR, rateHR);
-var tax = calc.multiply(gross,0.1);
-var sss = calc.divide(gross,6);
-var pag_ibig = calc.divide(gross,workHR);
-var philH = 400;
-var deduct = calc.add(calc.add(tax,sss),calc.add(pag_ibig,philH));
+const gross = calc.multiply(workHR, rateHR);
+const tax = calc.multiply(gross,0.1);
+const sss = calc.divide(gross,6);
+const pag_ibig = calc.divide(gross,workHR);
+const philH = 400;
+const deduct = calc.add(calc.add(tax,sss),calc.add(pag_ibig,philH));
 
 console.log('The gross income is ' + gross);
 console.log('Tax: ' + tax);
