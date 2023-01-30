@@ -33,7 +33,7 @@ var server = http.createServer(function (req, res) {
       '<html><body><p>Jenna Pangilinan, if you want additional details about this activity go to this site: https://www.tutorialteacher.com/nodejs/nodejs-tutorials</p></body></html>'
     );
     res.end();
-  } else if (req.url == '/contact') {
+  } else if (req.url == '/gallery') {
     res.writeHead(200, { 'Content-Type': 'text/html' });
 
     res.write('<html><body><h1>This is the Gallery Page</h1></body></html>');
