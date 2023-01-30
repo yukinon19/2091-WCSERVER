@@ -11,7 +11,7 @@ const workHR = calc.multiply(days,hrs);
 
 const gross = calc.multiply(workHR, rateHR);
 const tax = calc.multiply(gross,0.1);
-const sss = calc.divide(gross,6);
+const sss = calc.divide(gross,days);
 const pag_ibig = calc.divide(gross,workHR);
 const philH = 400;
 const deduct = calc.add(calc.add(tax,sss),calc.add(pag_ibig,philH));
