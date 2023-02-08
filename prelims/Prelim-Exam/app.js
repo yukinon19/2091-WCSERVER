@@ -1,18 +1,9 @@
 //Pangilinan, Jenna Ella P.
 
-var phrase = {
-  greet: function(name) {
-    return "Hello, " + name + "!";
-  },
-  
-  congratulations: function(name) {
-    return "Congratulations, " + name + "!";
-  },
-  
-  farewell: function(name) {
-    return "Goodbye, " + name + "!";
-  }
+var phrase = require("./phrase.js");
 
-}
+var name = "Jenna";
 
-module.exports = phrase;
+console.log(phrase.greet(name));
+console.log(phrase.congratulations(name));
+console.log(phrase.farewell(name));
