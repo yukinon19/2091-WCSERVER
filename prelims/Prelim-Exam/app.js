@@ -1,6 +1,6 @@
 //Pangilinan, Jenna Ella P.
 
-var phrase = require("./message.js");
+var phrase = require("./phrase.js");
 
 var name = "Jenna";
 
