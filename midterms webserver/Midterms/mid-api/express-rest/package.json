@@ -1,0 +1,11 @@
+{
+  "name": "express-rest",
+  "version": "1.0.0",
+  "description": "This app will demonstrate the use of API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean Warner Dean Datu",
+  "license": "ISC"
+}
