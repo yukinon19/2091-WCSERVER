@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Express App | UPLOAD</title>
-    <link rel="stylesheet" href="index.css" />
-
-    <div>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="upload.html">Upload</a></li>
-      </ul>
-    </div>
+    <title>Upload</title>
   </head>
-  <body>
-    <h1>WCSERVER</h1>
-    <h2>Upload Files Here</h2>
-    <form action="/uploads" enctype="multipart/form-data" method="POST">
-      <input type="file" name="myFile" /> <br />
-      <br />
-      <button type="submit">Submit</button>
-      <br />
-    </form>
-  </body>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="upload.html">Upload</a></li>
+  </ul>
+  <h1>WCSERVER</h1>
+  <h2>This is Upload page</h2>
+  <h2>Upload Files Here</h2>
+  <form action="/uploads" enctype="multipart/form-data" method="POST">
+    <input type="file" name="myFile" /> <br />
+    <button type="submit">Submit</button>
+  </form>
+  <body></body>
 </html>
